@@ -32,27 +32,27 @@
 
 //      RX          0
 //      TX          1
-#define SW_STBY     2
-#define HEATER_PWM  3
-#define SW_DOWN     4
+#define SW_STBY     6
+#define HEATER_PWM  9
+#define SW_DOWN     7
 #define HEAT_LED    5
-#define SW_UP       6
-#define SW_T3       7
-#define SW_T2       8
-#define SW_T1       9
+#define SW_UP       8
+#define SW_T3       4
+#define SW_T2       3
+#define SW_T1       2
 #define TFT_CS      10
 //      MOSI        11
 #define POWER       12 //use MISO PULLUP as switch
 //      SCK         13
-#define TEMP_SENSE  A0
+#define TEMP_SENSE  A7
 #define STBY_NO     A1
 #define BAT_C3      A2
 #define BAT_C2      A3
 #define BAT_C1      A4
-#define TFT_DC      A5
+#define TFT_DC      A0
 #ifdef PIN_A7
 #define CHARGEDET   A6
-#define VIN         A7
+#define VIN         A5
 #endif
 
 #define kp          0.03
